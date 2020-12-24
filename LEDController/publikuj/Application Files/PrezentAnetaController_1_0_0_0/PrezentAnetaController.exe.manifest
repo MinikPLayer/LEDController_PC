@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PrezentAnetaController.exe" version="1.0.0.0" publicKeyToken="9375cc011957b6b1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PrezentAnetaController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PrezentAnetaController.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PrezentAnetaController.exe" size="33248">
+      <assemblyIdentity name="PrezentAnetaController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rkiqn453AmGBQrUQRhUo4SSVM84UfyBD89W2CMUTav4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.dll" size="430080">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock" version="3.7.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nAQ4RdKZwm6UmXp4qrpC51IiaYkIY3vi3XBjxZqGVlQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.Aero.dll" size="87552">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.Aero" version="3.7.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xEI9nakSBYLIwuxAxuZFJaHh4aefhp1X8oxfaw9LS70=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.Metro.dll" size="79872">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.Metro" version="3.7.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2LCmRKhNjTVIOvwYuTrLHcYMTyk2nosHWndcHgTpyNg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.AvalonDock.Themes.VS2010.dll" size="84992">
+      <assemblyIdentity name="Xceed.Wpf.AvalonDock.Themes.VS2010" version="3.7.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6tpvw7ItmZzVwEl2AJV03rXBBPMryBmFVKNtZ2B9Udo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Xceed.Wpf.Toolkit.dll" size="1162240">
+      <assemblyIdentity name="Xceed.Wpf.Toolkit" version="3.7.0.0" publicKeyToken="3E4669D2F30244F4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hqGe7SlgIimRUAxym5L8wa061NwvhpP4qBF1aFdZwIk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PrezentAnetaController.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-OVOPQMA\minex" issuerKeyHash="8a8e857afbb3e91f9c49b95ec1915bfdaad8083a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>28vHsuNx5TkbIOGHJV06lrG0q8mcDpSKProrwN1oPpM=</DigestValue></Reference></SignedInfo><SignatureValue>Bk1n9TIYe6iIFjvQb/C99zdYSygIRNJ1GPZ78xrD/qVZMJv6Q9RSP7dq2xmu+iEJSvqeEPwo20+XCifFkkoZRvjDS/JjOE3dfM8/fpGyXA6jjMx1Dkluq8+UP4LKs/8d0OpRudNJouqXXRlONY6ls2f1h3R3fhwa5p7GcpjNH54=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ounhnrhojMp6sW6GdSJK2OyWQK1tQPoK7yVRvg1mWIk/nNCpQQM49oiOqAdCuPMt4wvpLr85S1Z2FZ1jutvHtxC4h0hZcTg+Vb0k0/LS9um1f9qAXwK4vr4PFWJ0Q/1yNGoSfaLsnEUzy+0Fxfv+Prl5pfymtEBCYPqshk7K12k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="933e68ddc02bba3e8a940e9cc9abb4b1963a5d2587e1201b39e571e3b2c7cbdb" Description="" Url=""><as:assemblyIdentity name="PrezentAnetaController.exe" version="1.0.0.0" publicKeyToken="9375cc011957b6b1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-OVOPQMA\minex</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HrhUDLBeLKFfXLsn5u4sDG+AK2ZQDysdzfdj4ysd5Y0=</DigestValue></Reference></SignedInfo><SignatureValue>ZMPc4oK0kAoSADWzSN/Sx+T6YZfUv3UdRk/+s8AMoDtYEGxx8P1/IPkUo9AZNGEudRB1Mcl3DmEpzrCmvSVVUZgxR/NuGeLuSiQU14dNIZ1Alo1rynQ4MjHQorYJexrR/qrqCn0TaKBSDHaqt7TPMHNFwD+tStxFKCQXg9DOFkQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ounhnrhojMp6sW6GdSJK2OyWQK1tQPoK7yVRvg1mWIk/nNCpQQM49oiOqAdCuPMt4wvpLr85S1Z2FZ1jutvHtxC4h0hZcTg+Vb0k0/LS9um1f9qAXwK4vr4PFWJ0Q/1yNGoSfaLsnEUzy+0Fxfv+Prl5pfymtEBCYPqshk7K12k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQIyFGQnKZiaVCx7bGDGqmpTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AVgBPAFAAUQBNAEEAXABtAGkAbgBlAHgwHhcNMTkxMjI5MjEwNTEzWhcNMjAxMjI5MDMwNTEzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE8AVgBPAFAAUQBNAEEAXABtAGkAbgBlAHgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKLp4Z64aIzKerFuhnUiStjslkCtbUD6Cu8lUb4NZliJP5zQqUEDOPaIjqgHQrjzLeML6S6/OUtWdhWdY7rbx7cQuIdIWXE4PlW9JNPy0vbptX/agF8CuL6+DxVidEP9cjRqEn2i7JxFM8vtBcX7/j65eaX8prRAQmD6rIZOytdpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZ4kzg5tiG4q67xnU23P1fw3UbMNn+L8FQMJkk6payuV2l5zKdVuhrlaFT9AgGnkTkQt83DxJQ0ySfSgR6oY+hO/+17JNkLWpqkjVr1u2Rt57vUL3jZDqIighAZQAhnTUR8ZxKBY6b40SDEM+Syw+2A8lDBtkxAJtdsN9WX0UiVc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

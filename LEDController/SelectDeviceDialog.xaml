@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrezentAnetaController"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" 
+        x:Class="Controller.SelectDeviceDialog"
+        mc:Ignorable="d"
+        Title="Select Device" Height="120" Width="320" Background="#FF3C3C3C">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Wybierz urzadzenie:" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" FontSize="20" Foreground="White" />
+            <ComboBox Name="DevicePicker" Grid.Column="1" VerticalAlignment="Center" Initialized="DevicePicker_Initialized" />
+        </Grid>
+        
+
+        <Button x:Name="ConfirmButton" Content="Zatwierdź" Grid.Row="1" Margin="70,0" Click="ConfirmButton_Click"/>
+    </Grid>
+
+    
+</Window>
